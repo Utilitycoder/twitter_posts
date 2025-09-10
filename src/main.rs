@@ -1,6 +1,6 @@
 use twitter_v2::TwitterApi;
-use twitter_v2::authorization::{Oauth2Token, BearerToken};
-use twitter_v2::query::{TweetField, UserField, TweetExpansion};
+use twitter_v2::authorization::{BearerToken};
+use twitter_v2::query::{TweetField, UserField};
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
